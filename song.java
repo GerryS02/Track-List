@@ -43,4 +43,20 @@ public class Song{
         this.title = title;
     }
 
+    public void setArtist(String artist){
+        this.artist = artist;
+    }
+
+    public void setGenre(String genre){
+        this.genre = genre;
+    }
+
+    public void setAlbum(String album){
+        this.album = album;
+    }
+
+    public void setYear(int year){
+        this.year = year;
+    }
+
 }
