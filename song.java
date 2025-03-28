@@ -59,4 +59,10 @@ public class Song{
         this.year = year;
     }
 
+    //Method to display the song details
+    public void displaySongDetails(){
+        System.out.println("Title: " + title + "; Artist: " + artist + "; Genre: "
+        + "; Album: " + album + "; Year: " + year);
+    }
+
 }
