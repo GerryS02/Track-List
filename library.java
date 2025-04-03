@@ -29,4 +29,8 @@ public class Library{
         songsByGenre.get(song.getGenre()).add(song);
     }
 
+    // Method to serch a song
+
+    
+
 }
