@@ -9,7 +9,7 @@ public class main {
         Scanner sc = new Scanner(System.in);
 
         // load songs from txt file
-        loadSongsFromFile(songs.txt, collection);
+        loadSongsFromFile("songs.txt", collection);
 
         System.out.println("Welcome to the Track-List!");
 
@@ -35,7 +35,7 @@ public class main {
 
                 case 2:
                     System.out.println("Enter the artist name to search: ");
-                    String artist = sc.nextLine(){};
+                    String artist = sc.nextLine();
                     collection.searchByArtist(artist);
                     break;
 
@@ -60,7 +60,7 @@ public class main {
                 case 6:
                     System.out.println("** Add a new song **");
                     System.out.println("Enter the title: ");
-                    String newtitle = sc.nextLine();
+                    String newTitle = sc.nextLine();
 
                     System.out.println("Enter the artist: ");
                     String newArtist = sc.nextLine();
@@ -73,8 +73,14 @@ public class main {
 
                     System.out.print("Enter release year: ");
                     int newYear = sc.nextInt();
-                    
+
                     sc.nextLine();  // Consume newline
+
+                    Song newSong = new Song(newTitle, newArtist, newGenre, newAlbum, newYear);
+                    collection.addSong(newSong);
+                    saveSongToFile("songs.txt", newSong);
+                    System.out.println("Song added and saved successfully!");
+                    break;
             }
 
 
@@ -82,6 +88,7 @@ public class main {
         
     }
 
+    // Load songs from songs.txt
     public static void loadSongsFromFile(String fileName, Library collection){
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) { // Use 'fileName' here
             String line;
