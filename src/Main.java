@@ -12,7 +12,7 @@ public class Main {
         // Load songs from songs.txt
         collection.loadSongsFromFile("songs.txt");
 
-        System.out.println("\n🎵 Welcome to the Track-List! 🎵");
+        System.out.println("\nWelcome to the Track-List!");
 
         while (true) {
             System.out.println("\n1. Search by Title");
@@ -20,7 +20,7 @@ public class Main {
             System.out.println("3. Search by Genre");
             System.out.println("4. Add a new song");
             System.out.println("5. Exit");
-            System.out.print("Choose an option: ");
+            System.out.print("\nChoose an option: ");
 
             String input = sc.nextLine();
             int choice;

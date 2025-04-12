@@ -18,23 +18,51 @@ public class Song {
     }
 
     // Getters
-    public String getTitle() { return title; }
-    public String getArtist() { return artist; }
-    public String getGenre() { return genre; }
-    public String getAlbum() { return album; }
-    public int getYear() { return year; }
+    public String getTitle(){ 
+        return title; 
+    }
+    public String getArtist(){ 
+        return artist; 
+    }
+    public String getGenre(){ 
+        return genre; 
+    }
+    public String getAlbum(){ 
+        return album; 
+    }
+    public int getYear(){ 
+        return year; 
+    }
 
     // Setters
-    public void setTitle(String title) { this.title = title; }
-    public void setArtist(String artist) { this.artist = artist; }
-    public void setGenre(String genre) { this.genre = genre; }
-    public void setAlbum(String album) { this.album = album; }
-    public void setYear(int year) { this.year = year; }
+    public void setTitle(String title){ 
+        this.title = title; 
+    }
+
+    public void setArtist(String artist){ 
+        this.artist = artist; 
+    }
+
+    public void setGenre(String genre){ 
+        this.genre = genre; 
+    }
+
+    public void setAlbum(String album){ 
+        this.album = album; 
+    }
+
+    public void setYear(int year){
+        this.year = year;
+    }
 
     // Method to display song details
     public void displaySongDetails() {
-        System.out.println("Title: " + title + "; Artist: " + artist + "; Genre: " + genre +
-                           "; Album: " + album + "; Year: " + year);
+        System.out.println("\n -Title: "+ title);
+        System.out.println(" -Artist: "+ artist);
+        System.out.println(" -Genre: "+ genre);
+        System.out.println(" -Album: "+ album);
+        System.out.println(" -year: "+ year);
+        
     }
 }
 
