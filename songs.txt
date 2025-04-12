@@ -35,3 +35,36 @@ Stay,The Kid LAROI & Justin Bieber,Pop,Stay,2021
 As It Was,Harry Styles,Pop,Harry's House,2022
 Shivers,Ed Sheeran,Pop,Equals,2021
 Sweet Melody,Little Mix,Pop,Confetti,2020
+
+Anti-Hero,Taylor Swift,Pop,Midnights,2022
+Style,Taylor Swift,Pop,1989,2014
+Delicate,Taylor Swift,Pop,Reputation,2017
+
+Can't Get You Out of My Head,Kylie Minogue,Dance-pop,Fever,2001
+Magic,Kylie Minogue,Pop,Disco,2020
+
+Crybaby,Paloma Faith,Pop,The Architect,2017
+New York,Paloma Faith,Pop,Do You Want the Truth or Something Beautiful?,2009
+
+Lose Control,Teddy Swims,Soul/Pop,I've Tried Everything But Therapy (Part 1),2023
+The Door,Teddy Swims,Pop,I've Tried Everything But Therapy (Part 1),2023
+
+There's Nothing Holdin' Me Back,Shawn Mendes,Pop,Illuminate,2017
+Treat You Better,Shawn Mendes,Pop,Illuminate,2016
+
+Watermelon Sugar,Harry Styles,Pop,Fine Line,2019
+Adore You,Harry Styles,Pop,Fine Line,2019
+
+Shine,Years & Years,Pop,Communion,2015
+Eyes Shut,Years & Years,Pop,Communion,2015
+Sanctify,Years & Years,Electropop,Palo Santo,2018
+
+Leave a Light On,Tom Walker,Pop,What a Time to Be Alive,2019
+Just You and I,Tom Walker,Pop,What a Time to Be Alive,2019
+
+Head & Heart,MNEK & Joel Corry,House-pop,Single,2020
+Colour,MNEK feat. Hailee Steinfeld,Pop,Language,2018
+
+Flowers,Miley Cyrus,Pop,Endless Summer Vacation,2023
+Midnight Sky,Miley Cyrus,Pop,Plastic Hearts,2020
+Wrecking Ball,Miley Cyrus,Pop,Bangerz,2013
