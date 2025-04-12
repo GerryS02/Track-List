@@ -70,4 +70,5 @@ The application is built using OOP principles for modular, maintainable code.
 - Provides informative error messages when invalid input or file issues occur  
 
 ---
+![Image](https://github.com/user-attachments/assets/246aa0f4-19ee-4ce1-903d-3b8f65303735) 
 
