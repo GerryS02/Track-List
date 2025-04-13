@@ -66,7 +66,6 @@ The application is built using OOP principles for modular, maintainable code.
 - Utilizes `try-catch` blocks to catch and handle runtime exceptions:  
   - `NumberFormatException` when parsing user input (e.g., menu selection, year)  
   - `IOException` for file read/write operations  
-- Prevents crashes and ensures graceful user experience  
 - Provides informative error messages when invalid input or file issues occur  
 
 ---
